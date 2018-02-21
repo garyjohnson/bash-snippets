@@ -12,3 +12,5 @@ printf "${GRN}OK!${NC}\n"
 printf "${BLU}Performing another long running operation...${NC}"
 sleep 1
 printf "${RED}Failed!${NC}\n"
+
+printf "\nAdditionally -- consider trapping signals and resetting ANSI color before exit. See trap-exit.sh\n"
